@@ -6,7 +6,10 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Hello World</h1>
+    <header>
+        <h1>GIT dolgok</h1>
+    </header>
+    
     <article>
 <h2>GIT alapvető parancsok</h2>
 <p><strong>git init</strong>: Új Git repository inicializálása az aktuális mappában.</p>
@@ -19,6 +22,23 @@
 <p><strong>git pull</strong>: Letölti és egyesíti a távoli változásokat.</p>
 </article>
 
+<div class="images">
+
+    <img src="https://picsum.photos/200/150" alt="Random kép1">
+
+    <img src="https://picsum.photos/200/151" alt="Random kép2">
+
+    <img src="https://picsum.photos/200/152" alt="Random kép3">
+
+  </div>
+
+<footer>
+  🫃 <span id="year"></span> 🫃
+</footer>
 
 </body>
 </html>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
